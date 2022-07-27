@@ -1,0 +1,64 @@
+name: adove
+description: Aplicativo Adove, usuários.
+
+publish_to: 'Fedra' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.10+10 # add novas views.add novos recursos.corrigiu bug+vezes buildadas
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  line_icons: ^2.0.1
+  date_picker_timeline: ^1.2.3
+  lottie: ^1.2.1
+  searchfield: ^0.5.6
+
+  http: ^0.13.4
+
+  firebase_messaging: ^12.0.0
+  firebase_core: ^1.19.2
+
+  get: ^4.3.8
+  get_storage: ^2.0.3
+
+  graphql: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+
+  flutter_lints: ^1.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon-background.png"
+  image_path_ios: "assets/images/icon-ios.png"
+  adaptive_icon_background: "#FAD300"
+  adaptive_icon_foreground: "assets/images/icon-foreground.png"
+  remove_alpha_ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/gifs/
+    - assets/animations/
+
+  fonts:
+    - family: Myriad
+      fonts:
+        - asset: assets/fonts/Myriad.OTF
+    - family: Made
+      fonts:
+        - asset: assets/fonts/Made.otf

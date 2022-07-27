@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "847097510647",
+    "project_id": "adove-app",
+    "storage_bucket": "adove-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847097510647:android:340f0988222214aeeab1f2",
+        "android_client_info": {
+          "package_name": "br.com.fedratecnologia.adove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847097510647-4nebjp201paq6dnhprqlnoke984eq3sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARKHV5qFwqCUzuXt7W1YkdutwTc93mnjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847097510647-4nebjp201paq6dnhprqlnoke984eq3sr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "847097510647-od1b8dsp5uiv1sbn9smgqqsai93j88t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appAdove"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847097510647:android:5f0b283d11954152eab1f2",
+        "android_client_info": {
+          "package_name": "br.com.fedratecnologia.adoveparceiros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847097510647-4nebjp201paq6dnhprqlnoke984eq3sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARKHV5qFwqCUzuXt7W1YkdutwTc93mnjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847097510647-4nebjp201paq6dnhprqlnoke984eq3sr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "847097510647-od1b8dsp5uiv1sbn9smgqqsai93j88t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appAdove"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
