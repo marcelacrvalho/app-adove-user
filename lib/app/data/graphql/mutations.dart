@@ -79,3 +79,14 @@ const String deleteUserEvent = r'''
   )
 }
 ''';
+
+const String getJobsByStoreId = r'''
+query GetJobsByStoreId($id: Int) {
+  jobsByStore(
+    filter: {
+      store: $id,
+    }
+  ) { id job description price store { name }
+  }
+}
+''';

@@ -38,7 +38,7 @@ class InitialController extends GetxController {
     if (firebaseToken == null || firebaseToken != newToken) {
       firebaseToken = await FirebaseMessaging.instance.getToken();
       box.write('adove-user-firebase-token', newToken);
-      userRepository.updateFirebaseToken(
+      await userRepository.updateFirebaseToken(
           AuthController.to.currentUser.value.id!, newToken!);
     }
   }

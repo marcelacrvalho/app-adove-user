@@ -1,5 +1,7 @@
+import 'package:adove/app/global/helpers/dynamic_links.dart';
 import 'package:adove/app/routes/app_routes.dart';
 import 'package:adove/app/theme/app_theme.dart';
+import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -14,6 +16,7 @@ void main() async {
   CustomNotification.verifyNotification();
   CustomNotification.verifyNotificationBackground();
   CustomNotification.verifyNotificationTerminated();
+  CustomDynamicLinks.retrieveDynamicLink();
   runApp(
     GetMaterialApp(
       defaultTransition: Transition.cupertino,
@@ -21,7 +24,7 @@ void main() async {
       title: 'Adove',
       debugShowCheckedModeBanner: false,
       theme: appThemeData,
-      initialRoute: Routes.kInital,
+      initialRoute: Routes.kInitial,
       getPages: AppPages.routes,
       initialBinding: InitialBinding(),
       localizationsDelegates: const [

@@ -3,7 +3,7 @@ description: Aplicativo Adove, usuários.
 
 publish_to: 'Fedra' # Remove this line if you wish to publish to pub.dev
 
-version: 1.0.10+10 # add novas views.add novos recursos.corrigiu bug+vezes buildadas
+version: 1.0.13+13 # add novas views.add novos recursos.corrigiu bug+vezes buildadas
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -24,6 +24,7 @@ dependencies:
 
   firebase_messaging: ^12.0.0
   firebase_core: ^1.19.2
+  firebase_dynamic_links: ^4.3.3
 
   get: ^4.3.8
   get_storage: ^2.0.3

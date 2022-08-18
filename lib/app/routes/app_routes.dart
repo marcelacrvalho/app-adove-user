@@ -1,8 +1,8 @@
 abstract class Routes {
-  static const kInital = '/';
+  static const kInitial = '/';
   static const kAuth = '/auth';
   static const kAddress = '/address';
-  static const kBottomBar = '/bottomBar'; 
+  static const kBottomBar = '/bottomBar';
   static const kHome = '/home';
   static const kProfile = '/profile';
   static const kSchedule = '/schedule';
@@ -11,4 +11,5 @@ abstract class Routes {
   static const kSearchJob = '/search-job';
   static const kEvent = '/event';
   static const kConfirmEvent = '/confirmation';
+  static const kDynamicLinkJob = '/dynamic-link-store';
 }

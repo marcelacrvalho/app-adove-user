@@ -50,4 +50,11 @@ class JobController extends GetxController {
       listSearchJob!.value = response;
     }
   }
+
+  Future jobsDynamicLink(int id) async {
+    var response = await repository.getJobsByDynamicLink(id);
+    if (response != null) {
+      listJob!.value = response;
+    }
+  }
 }

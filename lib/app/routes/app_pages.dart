@@ -15,6 +15,7 @@ import 'package:adove/app/module/home/views/schedule.dart';
 import 'package:adove/app/module/initial/bindings/initial.dart';
 import 'package:adove/app/module/initial/views/initial.dart';
 import 'package:adove/app/module/job/bindings/job.dart';
+import 'package:adove/app/module/job/views/dynamic_link_job.dart';
 import 'package:adove/app/module/job/views/job.dart';
 import 'package:adove/app/module/job/views/search_job.dart';
 import 'package:adove/app/routes/app_routes.dart';
@@ -23,7 +24,7 @@ import 'package:get/get.dart';
 class AppPages {
   static final routes = [
     GetPage(
-      name: Routes.kInital,
+      name: Routes.kInitial,
       page: () => const InitialView(),
       binding: InitialBinding(),
     ),
@@ -52,7 +53,7 @@ class AppPages {
       page: () => const ScheduleView(),
       binding: ScheduleBinding(),
     ),
-     GetPage(
+    GetPage(
       name: Routes.kProfile,
       page: () => const ProfileView(),
       binding: ProfileBinding(),
@@ -76,6 +77,11 @@ class AppPages {
       name: Routes.kConfirmEvent,
       page: () => const ConfirmationView(),
       binding: EventBinding(),
+    ),
+    GetPage(
+      name: Routes.kDynamicLinkJob,
+      page: () => const DynamicLinkJobsView(),
+      binding: JobBinding(),
     ),
   ];
 }
